@@ -1,0 +1,73 @@
+Tipos: 
+  int //inteiro
+  float //reais
+  str //texto ou caracter
+  bool //booleano
+    
+Operadores: 
+  + //soma
+  - //subtração
+  * //multiplicação
+  / //divisão
+  % //resto da divisão
+  ** //potenciação
+  and //“e” lógico
+  or //“ou” lógico
+  not //negação lógica
+
+Entrada e saída:
+  print(...) //saída de texto padrão, pode conter variáveis
+  variavel = input(...) //entrada padrão, pode digitar um texto, ou converter para variável caso escrito no começo
+    
+Condicionais:
+  if condição
+    ação
+  elif condição
+    ação
+  else
+    ação
+    
+Repetição:
+  For i in range(quant):
+    Ação
+  For item in lista (similar ao for each)
+    Ação que pode relacionar ao item
+  While condição
+    Ação
+    
+Funções:
+  def funçãoA(a,b)
+    return x genérico de a e b
+  variavel = funçãoA(c, d quaisquer)
+  round(numero, casas decimais) //arredonda o número baseado nas casas decimais
+    
+Estruturas:
+  ListaA = [“a”, “b”, “c”] // cria a lista
+  ListaA.append(“d”) // adiciona a lista
+  ListaA.pop(x) //remove por índice
+  Variavel = lista[x] //acesso por índice
+  Variavel = len(listaA) //tamanho da lista
+    
+Dicionário: 
+  aluno = {"nome": "Ana", "idade": 20, "curso": "Computação"}
+  nome = aluno["nome"] //Acessa pela chave
+  aluno["nota"] = 9.5 //Adiciona nova chave-valor
+  chaves = aluno.keys() //Retorna as chaves
+  valores = aluno.values() //Retorna os valores
+    
+Manipulação de strings:
+  Texto.strip() // Remove espaços nas pontas
+  Texto.lower()//deixa tudo minusculo, com upper deixa maisuculo
+  Texto.replace(“palavraA”,”palavraB”)//troca A por B no texto
+  Texto.split(“caracter”) // divide a string em lista baseado nesse caracter
+    
+Try catch:
+  Try:
+    Código da base a se fazer
+  Except exceçãogenerica:
+    ação no caso de erro exceçãogenerica
+
+Importações:
+  Import bibliotecaX //importa tudo de uma biblioteca
+  Import bibliotecaX as x //cria um apelido pra ser chamado
+  From bibliotecaX import funcaoy //importa uma função específica
