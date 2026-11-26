@@ -9,7 +9,8 @@ Reunir algoritmos numéricos, análises de convergência e erro, visualizações
 ## Arquivos do repositório
 
 ```text
-├── Atv1CN: Realizada no dia 24/08/2026, dava início ao curso, envolvendo truncamento, arredondamento, erros absolutos, relativos e percentuais, além de Hagen–Poiseuille, criação de gráficos e GIF via código, sendo este último presente em Atv1_nanocateter.gif.
+├── Atv1CN: Realizada no dia 24/08/2026, dava início ao curso, envolvendo truncamento, arredondamento, erros absolutos,
+relativos e percentuais, além de Hagen–Poiseuille, criação de gráficos e GIF via código, sendo este último presente em Atv1_nanocateter.gif.
 
 ├── Atv2CN: Realizada no dia 02/09/2026, envolve tópicos como estabilidade, overflow e refinamento de malha em código.
 
